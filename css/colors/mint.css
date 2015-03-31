@@ -1,0 +1,393 @@
+/**
+ * ---------------------------------------------------------------------------------------
+ * Colors: MINT
+ * ---------------------------------------------------------------------------------------
+ */
+
+
+/**
+ * --------------------------------------------------
+ * Caption Styles
+ * --------------------------------------------------
+ */
+.grid figcaption a {
+  background: #37BC9B;
+}
+
+.grid figcaption {
+  background: #434A54;
+}
+
+/**
+ * --------------------------------------------------
+ * Typography
+ * --------------------------------------------------
+ */
+.block-title:before,
+.block-title-small:before {
+  color: #37BC9B;
+}
+
+.textcolor {
+  color: #37BC9B;
+}
+
+/* Blockquotes */
+blockquote {
+   border-left: 1px solid #37BC9B;
+}
+
+blockquote.pull-right {
+   border-right: 1px solid #37BC9B;
+}
+
+/**
+ * --------------------------------------------------
+ * Links
+ * --------------------------------------------------
+ */
+a {
+  color: #37BC9B;
+}
+
+li a.active {
+  color: #37BC9B;
+}
+
+/**
+ * --------------------------------------------------
+ * Regions
+ * --------------------------------------------------
+ */
+
+/**
+ * Regions -> footer columns
+ * --------------------------------------------------
+ */
+#footer-four-columns a:hover,
+#footer-four-columns a:focus {
+  color: #37BC9B;
+}
+
+/**
+ * Regions -> footer
+ * --------------------------------------------------
+ */
+footer a:hover,
+footer a:focus {
+  color: #37BC9B;
+}
+
+/**
+ * --------------------------------------------------
+ * Menu
+ * --------------------------------------------------
+ */
+
+/**
+ * Main navigation
+ * --------------------------------------------------
+ */
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus {
+  color: #c8cacb;
+  background: #35393b;
+}
+
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  background: #37BC9B;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+  color: #fff;
+}
+
+li.dropdown:hover > a {
+  color: #c8cacb;
+  background: #35393b
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+  color: #fff;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #37BC9B;
+}
+
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+  color: #c8cacb;
+  background: #35393b;
+}
+
+/**
+ * Admin menu
+ * --------------------------------------------------
+ */
+.nav-filter > li > a:hover,
+.nav-filter > li > a:focus,
+.nav-filter > .active > a,
+.nav-filter > .active > a:hover,
+.nav-filter > .active > a:focus {
+  color: #37BC9B;
+}
+
+/**
+ * --------------------------------------------------
+ * Slider
+ * --------------------------------------------------
+ */
+
+.sequence-preloader .preloading .circle {
+    fill: #37BC9B;
+}
+
+/**
+ * --------------------------------------------------
+ * Portfolio
+ * --------------------------------------------------
+ */
+.portfolio-item:hover .portfolio-title {
+  border-bottom: 1px solid #37BC9B;
+}
+
+.portfolio-item .portfolio-title a:hover {
+  color: #37BC9B;
+}
+
+/* Portfolio Block Version 2 */
+
+.portfolio-block-2 .portfolio2-item a {
+  background: #37BC9B;
+}
+
+/**
+ * --------------------------------------------------
+ * Blocks
+ * --------------------------------------------------
+ */
+
+/**
+ * Box Style
+ * --------------------------------------------------
+ */
+.box-style .icon span {
+  color: #37BC9B;
+}
+
+.box-style .icon {
+  background: #FFF;
+  border: 1px solid #37BC9B;
+}
+
+.box-style .icon:hover {
+  background-color: #37BC9B;
+}
+
+.box-style .icon:hover span {
+  color: #FFF;
+}
+
+/**
+ * Panels
+ * --------------------------------------------------
+ */
+
+/* Panels-V 1 */
+.panel .panel-icon .fa {
+  box-shadow: 0 0 0 2px #37BC9B;
+}
+
+.panel .panel-icon .fa:after {
+  background: #37BC9B;
+}
+
+.panel:hover .panel-icon .fa {
+  color: #37BC9B;
+}
+
+.panel:hover .panel-info h3 {
+   color: #37BC9B;
+}
+
+/* Panels-V 2 */
+
+.panel-2:hover h4 {
+  color: #37BC9B;
+}
+
+.panel-2 .panel-icon {
+  box-shadow: 0 0 0 1px #37BC9B;
+}
+
+.panel-2 .panel-fa:after {
+  background: #37BC9B;
+}
+
+.panel-2:hover .panel-icon {
+  color: #37BC9B;
+}
+
+/**
+ * Testimonials
+ * --------------------------------------------------
+ */
+#testimonials blockquote i {
+  color: #FFF;
+}
+
+
+/**
+ * Social Links
+ * --------------------------------------------------
+ */
+#social-widget-footer a:hover,
+#social-widget-header a:hover {
+  color: #37BC9B;
+}
+
+/**
+ * --------------------------------------------------
+ * Theme Features
+ * --------------------------------------------------
+ */
+
+/**
+ * Carousels
+ * --------------------------------------------------
+ */
+.carousel-arrows .carousel-arrow-left:hover,
+.carousel-arrows .carousel-arrow-right:hover {
+  color: #37BC9B;
+}
+
+/**
+ * Buttons
+ * --------------------------------------------------
+ */
+.btn-primary {
+  background-color: #37BC9B;
+  *background-color: #37BC9B;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+  background-color: #4FC1E9;
+  *background-color: #4FC1E9;
+}
+
+.btn-link {
+  color: #37BC9B;
+}
+
+/**
+ * Tabs
+ * --------------------------------------------------
+ */
+
+/*Dropdown*/
+.nav-tabs li.dropdown:hover > a {
+  background: #f5f7fa;
+}
+
+/* Top Tabs */
+.tabs-top > .nav-tabs > .active > a,
+.tabs-top > .nav-tabs > .active > a:hover,
+.tabs-top > .nav-tabs > .active > a:focus {
+  border-top: 1px solid #37BC9B;
+}
+
+/* Left Tabs */
+.tabs-left > .nav-tabs > .active > a,
+.tabs-left > .nav-tabs > .active > a:hover,
+.tabs-left > .nav-tabs > .active > a:focus {
+  border-left: 1px solid #37BC9B;
+}
+
+/* Right Tabs */
+.tabs-right > .nav-tabs > .active > a,
+.tabs-right > .nav-tabs > .active > a:hover,
+.tabs-right > .nav-tabs > .active > a:focus {
+  border-right: 1px solid #37BC9B;
+}
+
+/* Below Tabs */
+.tabs-below > .nav-tabs > .active > a,
+.tabs-below > .nav-tabs > .active > a:hover,
+.tabs-below > .nav-tabs > .active > a:focus {
+  border-bottom: 1px solid #37BC9B;
+}
+
+/**
+ * Labels, Badges, Alerts, Progress Bars, Hero, Wells
+ * --------------------------------------------------
+ */
+.progress .bar {
+  background-color: #37BC9B;
+}
+
+.progress-striped .bar {
+  background-color: #37BC9B;
+}
+
+.well blockquote {
+  border-color: #37BC9B;
+}
+
+.well blockquote.pull-right {
+  border-color: #37BC9B;
+}
+
+/**
+ * Our Team
+ * --------------------------------------------------
+ */
+.team-social a:hover {
+  color: #37BC9B;
+}
+
+/**
+ * Settings styles
+ * --------------------------------------------------
+ */
+
+/* Background colors */
+.bg-color-theme { background-color: #FFF; }
+
+/* Text colors */
+.text-color-theme { color: #434A54; }
+
+
+@media (max-width: 979px) {
+  /**
+   * --------------------------------------------------
+   * Menu
+   * --------------------------------------------------
+   */
+
+  .navbar .brand {
+    border-bottom: 2px solid #37BC9B;
+  }
+  
+  /* Dropdown menu */
+  .nav-collapse .nav > li:focus > a,
+  .nav-collapse .nav > li:hover > a,
+  .nav-collapse .nav > li > a:hover,
+  .nav-collapse .nav > li > a:focus,
+  .nav-collapse .dropdown-menu a:hover,
+  .nav-collapse .dropdown-menu a:focus {
+    color: #37BC9B;
+  }
+
+}

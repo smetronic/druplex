@@ -1,0 +1,119 @@
+name = Druplex
+description = Multipurpose responsive theme.
+core = 7.x
+
+
+; Stylesheets
+
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/style-1.css
+stylesheets[all][] = css/style-2.css
+stylesheets[all][] = css/font-awesome.min.css
+stylesheets[all][] = css/flexslider.css
+
+
+; Scripts
+
+scripts[] = js/bootstrap.min.js
+scripts[] = js/jquery.isotope.min.js
+scripts[] = js/jquery.flexslider-min.js
+scripts[] = js/jquery.fitvids.js
+scripts[] = js/chart.min.js
+scripts[] = js/jquery.sequence-min.js
+scripts[] = js/modernizr.custom.js
+scripts[] = js/app.js
+
+
+; Regions
+
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[slider] = Slide Show
+
+regions[top_content_left] = Top content left
+regions[top_content_right] = Top content right
+
+regions[featured] = Featured
+
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[content_wide1] = Content wide 1
+regions[content_wide2] = Content wide 2
+regions[content_wide3] = Content wide 3
+regions[content_wide4] = Content wide 4
+
+regions[before_footer] = Before footer
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+regions[footer_left] = Footer left
+regions[footer_right] = Footer right
+
+
+; Default Settings
+settings[layout_version] = fluid
+
+settings[theme_color] = aqua
+
+settings[boxed_bColor] = bg-col-lightGray2
+
+settings[breadcrumb_position] = left
+settings[breadcrumb_delimiter] = <i class="fa fa-angle-right"></i>
+
+settings[top_content_bColor]  = bg-col-lightGray1
+settings[top_content_tColor]  = text-col-grayDark1
+settings[top_content_tiColor] = text-col-grayDark2
+settings[top_content_lColor]  = text-color-theme
+
+settings[featured_bColor]  = bg-color-white
+settings[featured_tColor]  = text-col-grayDark1
+settings[featured_tiColor] = text-col-grayDark2
+settings[featured_lColor]  = text-color-theme
+
+settings[wide1_bColor]   = bg-col-aqua2
+settings[wide1_tColor]   = text-color-white
+settings[wide1_tiColor]  = text-color-white
+settings[wide1_lColor]   = text-color-theme
+settings[wide1_use_bImg] = 1
+settings[wide1_bImg]     = bg-img-1
+
+settings[wide2_bColor]  = bg-col-white
+settings[wide2_tColor]  = text-col-grayDark1
+settings[wide2_tiColor] = text-col-grayDark2
+settings[wide2_lColor]  = text-color-theme
+
+settings[wide3_bColor]   = bg-col-lightGray1
+settings[wide3_tColor]   = text-col-grayDark1
+settings[wide3_tiColor]  = text-col-grayDark2
+settings[wide3_lColor]   = text-color-theme
+settings[wide3_use_bImg] = 0
+settings[wide3_bImg]     = bg-img-1
+
+settings[wide4_bColor]  = bg-color-white
+settings[wide4_tColor]  = text-col-darkGray1
+settings[wide4_tiColor] = text-col-darkGray2
+settings[wide4_lColor]  = text-color-theme
+
+settings[before_footer_bColor]  = bg-col-aqua2
+settings[before_footer_tColor]  = text-color-white
+settings[before_footer_tiColor] = text-color-white
+settings[before_footer_lColor]  = text-color-white
+
+settings[footer_four_bColor]  = bg-col-darkGray2
+settings[footer_four_tColor]  = text-col-mediumGray2
+settings[footer_four_tiColor] = text-col-lightGray2
+settings[footer_four_lColor]  = text-col-lightGray2
+
+settings[footer_bColor]  = bg-col-darkGray1
+settings[footer_tColor]  = text-col-mediumGray2
+settings[footer_tiColor] = text-col-lightGray2
+settings[footer_lColor]  = text-col-lightGray2
+
+settings[slider_color]    = bg-col-aqua2
+settings[slider_use_bImg] = 1
+settings[slider_bImg] = bg-img-1
+
+settings[email_maintenance] = alex@hello.com
